@@ -6,5 +6,4 @@ $delete->bindValue(1,$id);
 $delete->execute();
 header('location:showArticles.php');
 
-
 ?>
