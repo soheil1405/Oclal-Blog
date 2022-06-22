@@ -1,0 +1,271 @@
+@font-face {
+    font-family: IRANMarker;
+    src: url('../fonts/IRANMarker.ttf');
+}
+
+* {
+    direction: rtl;
+    text-align: right;
+    font-family: IRANMarker;
+}
+
+.dropdown-menu.show {
+    direction: rtl;
+    border-bottom: 7px solid red !important;
+}
+
+.dropdown-menu.show {
+    border: 10px sloid #33ffff;
+}
+
+.dropdown-item {
+    direction: rtl;
+    text-align: right;
+}
+
+
+.nav-item {
+
+    opacity: 0.8;
+    margin: 0px 10px;
+
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid red;
+    color: black;
+
+    opacity: 1;
+}
+
+.search {
+    width: 100%;
+}
+
+.serchinsid {
+    width: 50%;
+    margin: auto;
+
+}
+#search-btn{
+    
+}
+
+input#searchinput {
+    margin-left: -40px;
+    border-radius: 0px 10px 10px 0px;
+    width: 60%;
+    display: inline;
+    margin-top: 2px;
+}
+
+input.sub {
+    height: 48px;
+    margin-right: -30px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+#centerImg {
+    transition: all 0.5s;
+    border-radius: 10px;
+    margin: 5px;
+    width: 100%;
+}
+
+#centerImg:hover {
+    opacity: 0.5;
+}
+
+.row {
+    margin-top: 20px;
+    background-color: rgba(229, 193, 150, 0.127);
+}
+
+.myform {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-box {
+
+    width: 100%;
+    background-color: darkgray;
+    box-shadow: 10px 10px 10px rgb(99, 98, 98);
+    margin: 50px 0px;
+    padding: 10px 70px;
+    text-align: center;
+    border-right: 3px solid rgb(8, 248, 8);
+    border-radius: 10px;
+    border-left: 3px solid rgb(8, 248, 8);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    direction: rtl;
+    justify-content: end;
+    text-align: right;
+}
+
+footer {
+    width: 100%;
+    height: 19%;
+    background-color: rgba(24, 24, 24, 0.733);
+    bottom: 0;
+    left: 0;
+}
+
+.footerParent {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 24, 24, 0.733);
+    font-size: 12px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+
+.footerParent .MediaNav {
+    width: 30%;
+    height: 100%;
+}
+
+.mySlides {
+    border-radius: 10px;
+    display: none;
+    width: 100%;
+    height: 70vh;
+}
+
+.mainslider {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.slider-controllers {
+    position: absolute;
+    height: 100%;
+    top: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btcontrollerleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.329);
+    color: #ffff;
+}
+
+#newArticeTitle {
+    margin-top: 5px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #33ffff;
+}
+
+.itemsbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newarticles {
+    margin: 50px 0px;
+}
+
+.boxes {
+    transition: all 0.3s;
+    height: 400px;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 3px 1px 10px 1px black;
+}
+
+
+
+.boxes-img {
+    cursor: pointer;
+    width: 100%;
+    height: 180px;
+    border-radius: 7px;
+}
+
+.boxtitle {
+    padding: 10px 20px;
+}
+
+.boxdetail {
+
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+#boxspbottum {
+    margin-right: 5px;
+    margin-left: 40px;
+    font-size: 13px;
+}
+
+.boxes:hover {
+    margin-top: -10px;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 780px) {
+    .serchinsid {
+        width: 100%;
+    }
+
+    .myform {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    .input {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+
+    .sub {
+        width: 30%;
+        margin: 0 auto;
+        font-size: 10px;
+        height: 20px;
+    }
+
+    .text-box {
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+
+    .about-writer-inslide {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-writer-inslide-info-text {
+        display: block;
+    }
+}

@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainarticle{
+    margin: 80px 0px ;
+    box-shadow: 10px 10px 10px 5px rgb(95, 94, 94);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.mainarticle img{
+    width: 100%;
+    border-radius: 8px;
+    margin: 10px 5px;
+}
+.tags{
+    margin: 80px 0px ;
+    padding: 30px 80px;
+    box-shadow:5px 5px 5px 5px rgb(95, 94, 94);
+    border-radius: 10px;
+}
+
+.tags p{
+    margin-bottom: 20px;
+    border-bottom: #333fff;
+    color: #333;
+}
+#tagtitle{
+    
+    border-bottom: #333fff;
+}
+.tags a{
+    width: 60px;
+    border: 1px solid #333;
+    color:#ffff;
+    background-color: rgb(120, 120, 120);
+    border-radius: 20%;
+    margin: 10px 5px;
+}
+.about-writer{
+    
+    margin: 80px 0px ;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-right: 1px solid #33ffff;
+    border-left: 1px solid #33ffff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 2px #33ffff;
+}
+.about-writer img{
+    width: 200px;
+    border-radius: 50%;
+}
+.about-writer-inslide{
+    display: flex;
+}
+.comment{
+    margin: 80px 0px ;
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-right: 1px solid #33ffff;
+    border-left: 1px solid rgb(120, 120, 120);
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 2px rgb(120, 120, 120);
+}
+
+.btsendcomment{
+    float:left ;
+    margin: 45px 10px;
+}
+.user-comment{
+    padding: 30px 10px;
+    margin: 50px 0px  200PX 0PX;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:  rgb(226, 226, 226);
+    border:1px solid rgb(120, 120, 120);
+    border-radius: 2px;
+
+}
+.user-comment-username{
+    display: inline;
+    border-bottom: 1px solid  rgb(40, 40, 40);   
+}
+.user-comment-comment{
+    margin: 10px 30px;
+}

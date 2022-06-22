@@ -1,0 +1,11 @@
+.myform{
+    display: flex;
+}
+
+.form-control{
+    margin: 10px 20px;
+}
+.btn-success{
+    
+    margin: 10px 20px;
+}
